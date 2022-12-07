@@ -1,0 +1,61 @@
+.content {
+	padding: 30px;
+	min-height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.card__1 {
+	width: 304px;
+}
+
+.form__fill,
+.form__created {
+	display: flex;
+	flex-direction: column;
+}
+
+.error {
+	font-size: 14px;
+	font-weight: 700;
+	color: #ff3434;
+}
+
+.actions {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.button {
+	padding: 5px;
+	font-size: 16px;
+	width: 60%;
+}
+
+.card__2 {
+	margin-left: 50px;
+	width: 304px;
+}
+
+.card__2.hide {
+	visibility: hidden;
+	margin: 0;
+	width: 0;
+	border: 0;
+	opacity: 0;
+}
+
+@media screen and (max-width: 660px) {
+	.content {
+		padding: 20px 10px;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.card__2 {
+		margin-left: 0;
+		margin-top: 30px;
+	}
+}

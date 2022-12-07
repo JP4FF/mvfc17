@@ -1,0 +1,17 @@
+.label {
+	padding: 10px 0;
+}
+
+.text {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 5px 10px;
+	border: 2px solid #ececec;
+	border-radius: 8px;
+	resize: none;
+}

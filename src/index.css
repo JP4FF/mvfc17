@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "Nunito";
+	src: url("./assets/fonts/Nunitoregular.woff");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Nunito";
+	src: url("./assets/fonts/Nunitobold.woff");
+	font-weight: 700;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Nunito", sans-serif;
+	background-color: #ffffff;
+}

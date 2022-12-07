@@ -1,0 +1,24 @@
+.button {
+	font-family: inherit;
+	font-weight: 700;
+	padding: 10px;
+	color: #ff5151;
+	text-align: center;
+	border: 2px solid #ff5151;
+	border-radius: 8px;
+	background-color: transparent;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.button:hover {
+	color: #f0f0f0;
+	background-color: #ff5151;
+	box-shadow: 0 10px 20px rgba(91, 91, 91, 0.5);
+	transform: translateY(-5%);
+}
+
+.button:active {
+	box-shadow: 0 8px 12px rgba(91, 91, 91, 0.7);
+	transform: translateY(0);
+}
